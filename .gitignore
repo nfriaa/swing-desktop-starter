@@ -4,9 +4,21 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# netbeans : 
+nbproject/
+build/
+build.xml
+test/
+manifest.mf
+nbactions.xml
+nb-configuration.xml
+
+# mac files : 
+.DS_Store
