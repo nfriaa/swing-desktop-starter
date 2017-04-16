@@ -1,7 +1,11 @@
-# swing-desktop-starter
-A Desktop Sample Application / MDI (Multi Documents Interface) in Swing to help developers begin new program...
+# swing-desktop-starter-1.0.0
+A Sample Swing Desktop Application 
 
-## Used technologies : 
+## Description
+A sample Swing Desktop Application / MDI (Multi Documents Interface) to help developers start quickly new program... 
+The application is configured with Maven and Log4j as Java logger system.  
+
+## Dev tools
 * Java 
 * JDK 1.8
 * AWT
@@ -16,8 +20,21 @@ The demo folder contain a built final jar with dependencies that you can run to 
 ```
 java -jar swing-desktop-starter.jar 
 ```
+## Clone 
+To use this code in your project or to start a new application using this approach you can type in terminal : 
+```
+$ git clone https://github.com/nfriaa/swing-desktop-starter /your-local-path/your-project-name
+```
+Also in pom.xml file change : 
+```
+<artifactId>swing-desktop-starter</artifactId>
+```
+To : 
+```
+<artifactId>your-project-name</artifactId>
+``
 
-;-) 
+;-)
 ```
          __      _             
         / _|    (_)            
