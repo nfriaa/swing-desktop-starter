@@ -20,17 +20,17 @@ The demo folder contain a built final jar with dependencies that you can run to 
 ```
 java -jar swing-desktop-starter.jar 
 ```
-## Clone 
+## Clone and create your project
 To use this code in your project or to start a new application using this approach you can type in terminal : 
 ```
 $ git clone https://github.com/nfriaa/swing-desktop-starter /your-local-path/your-project-name
 ```
 Also in pom.xml file change : 
-```
+```xml
 <artifactId>swing-desktop-starter</artifactId>
 ```
 To : 
-```
+```xml
 <artifactId>your-project-name</artifactId>
 ```
 
