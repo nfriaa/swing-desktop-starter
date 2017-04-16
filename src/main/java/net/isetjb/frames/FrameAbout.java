@@ -46,7 +46,7 @@ public class FrameAbout extends JInternalFrame
     final static Logger log = Logger.getLogger(FrameAbout.class);
 
     JLabel jLabelLogo;
-    JLabel jLabelHeader = new JLabel("<html><h3>" + PROP.getProperty("app.finalName") + "</h3></html>");
+    JLabel jLabelHeader = new JLabel("<html><h3>" + PROP.getProperty("app.artifactId") + "-" + PROP.getProperty("app.version") + "</h3></html>");
     JTextArea jTextArea1 = new JTextArea(11, 21);
     JButton jButtonOk = new JButton(I18N.lang("frameabout.jButtonOk"));
 
@@ -58,7 +58,7 @@ public class FrameAbout extends JInternalFrame
         log.debug("START constructor...");
 
         setTitle(I18N.lang("frameabout.title"));
-        setLocation(new Random().nextInt(140) + 10, new Random().nextInt(150) + 10);
+        setLocation(new Random().nextInt(140) + 50, new Random().nextInt(150) + 50);
         setSize(320, 400);
 
         setClosable(true);
