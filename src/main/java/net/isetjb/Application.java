@@ -54,11 +54,10 @@ public class Application
     }
 
     /**
-     * Special settting for macOS
+     * Special settting for macOS.
      */
     public static void macosConfig()
     {
-        // special setting for macOS users :
         if (System.getProperty("os.name").contains("Mac"))
         {
             log.debug("Special settings for macOS users...");
