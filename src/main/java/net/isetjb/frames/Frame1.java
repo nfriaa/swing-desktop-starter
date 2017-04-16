@@ -39,7 +39,7 @@ public class Frame1 extends JInternalFrame
 {
     final static Logger log = Logger.getLogger(Frame1.class);
 
-    JButton jButton1 = new JButton("Test");
+    JButton jButton1 = new JButton(" Test >> ");
 
     /**
      * Constructor.
@@ -57,11 +57,12 @@ public class Frame1 extends JInternalFrame
         setMaximizable(false);
         setResizable(false);
         setDefaultCloseOperation(HIDE_ON_CLOSE);
-        setVisible(false);
 
         //add compnent to the frame :
         getContentPane().setLayout(new FlowLayout(FlowLayout.LEFT));
         getContentPane().add(jButton1);
+
+        setVisible(false);
 
         log.debug("End of constructor.");
     }
