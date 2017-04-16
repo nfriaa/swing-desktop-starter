@@ -2,8 +2,8 @@
 A Sample Swing Desktop Application 
 
 ## Description
-A sample Swing Desktop Application / MDI (Multi Documents Interface) to help developers start quickly new program... 
-The application is configured with Maven and Log4j as Java logger system.  
+A sample Swing Desktop Application / MDI (Multi Documents Interface) to help developers quickly start new project... 
+The application is pre-configured with Maven, Log4j and auto load properties files under `resources` folder.  
 
 ## Dev tools
 * Java 
