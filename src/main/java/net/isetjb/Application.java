@@ -23,7 +23,6 @@
  */
 package net.isetjb;
 
-import net.isetjb.frames.Desktop;
 import net.isetjb.config.I18N;
 import net.isetjb.config.PROP;
 import org.apache.log4j.Logger;

@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package net.isetjb.frames;
+package net.isetjb;
 
 import net.isetjb.config.I18N;
 import java.awt.Toolkit;
