@@ -20,5 +20,8 @@ manifest.mf
 nbactions.xml
 nb-configuration.xml
 
+# application log : 
+log/
+
 # mac files : 
 .DS_Store
